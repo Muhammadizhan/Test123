@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* navbar area stared  */
+
+.main-head{
+background-color: rgb(255, 237, 231);
+}
+.main-cont{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: brown;
+    flex-wrap: wrap;
+}
+.anc-1{
+    color: brown;
+}
+.butt-1{
+   padding: 4px 12px 4px 12px;
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    color: white;
+}
+.butt-2{
+    padding: 4px 10px 4px 10px;
+     background-color: brown;
+     border-radius: 20px;
+     border: 1px solid transparent;
+     color: white;
+ }
+ #menu{
+    font-size: 18px;
+ }
+ #burger{
+    font-size: 25px;
+ }
+ .sub-head{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(74, 30, 30);
+    padding: 10px;
+    flex-wrap: wrap;
+ }
+ @media screen and (max-width:1200px){
+    .butt-2{
+        display: none;
+    }
+    .main-cont{
+        padding-bottom: 5px;
+    }
+    .anc-1{
+        display: none;
+    }
+    .p-1{
+        display: none;
+    }
+    #menu{
+        font-size: 30px;
+    }
+    #burger{
+        font-size: 30px;
+    }
+ 
+ }
+
+
+/* navbar area ended  */
+
+/* hero section started   */
+
+.hero{
+    background-color: rgb(255, 237, 231);
+}
+#bu-end{
+    text-align: end;
+}
+
+
+/* hero section ended   */
+
+
+/* footer area started  */
+
+.footer-main{
+    background-color: rgb(74, 30, 30);
+    padding: 5px 0px 5px 0px;
+    color: white;
+    text-align: center;
+}
+.text-p p{
+    padding-top: 15px;
+    
+}
+.text-p p a{
+    color: white;
+    
+}
+
+.footer-last{
+    background-color: rgb(255, 237, 231);
+}
+.foot-main-area{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding-top: 20px;
+    color: brown;
+}
+
+
+@media screen and (max-width:1200px){
+    #par-1{
+        font-size: 30px;
+        
+    }
+}
+/* footer area ended */
